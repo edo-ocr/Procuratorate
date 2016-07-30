@@ -22,4 +22,16 @@ public abstract interface FileCode
 	public static final String prosecutionProposal = "22";
 	public static final String other = "23";
 	public static final String evidenceCover = "31";
+	public static final String suspectBasicInfo = "33";
+	public static final String suspectProcedureIllustration = "34";
+	public static final String suspectLawsuitRightNotificationF = "35a";
+	public static final String interrogationRecordF = "36a";
+	public static final String witnessLawsuitRightNotification = "39";
+	public static final String inquiryRecordFront = "40a";
+	public static final String searchRecord = "41";
+	public static final String onTheSpotSVRecord = "42";
+	public static final String expertConclusionFront = "43a";
+	public static final String expertConclusion = "43";
+	public static final String identification = "44";
+	
 }

@@ -90,13 +90,57 @@ public class Main implements FileCode {
 			writeFile(args[1], prosecutionProposal);
 			System.out.println(file.getName() + "——起诉意见书、案件起诉告知书");
 			break;
-		case other:
-			writeFile(args[1], other);
-			System.out.println(file.getName() + "——其他");
+		case suspectBasicInfo:
+			writeFile(args[1], suspectBasicInfo);
+			System.out.println(file.getName() + "——犯罪嫌疑人基本情况（右上贴照片）");
+			break;
+		case suspectProcedureIllustration:
+			writeFile(args[1], suspectProcedureIllustration);
+			System.out.println(file.getName() + "——犯罪嫌疑人到过程说明");
+			break;
+		case suspectLawsuitRightNotificationF:
+			writeFile(args[1], suspectLawsuitRightNotificationF);
+			System.out.println(file.getName() + "——首页——犯罪嫌疑人权利义务告知书");
 			break;
 		case evidenceCover:
 			writeFile(args[1], evidenceCover);
 			System.out.println(file.getName() + "——证据材料封面");
+			break;
+		case interrogationRecordF:
+			writeFile(args[1], interrogationRecordF);
+			System.out.println(file.getName() + "——首页——讯问笔录、犯罪嫌疑人供述");
+			break;
+		case witnessLawsuitRightNotification:
+			writeFile(args[1], witnessLawsuitRightNotification);
+			System.out.println(file.getName() + "——证人诉讼权利义务告知书");
+			break;
+		case inquiryRecordFront:
+			writeFile(args[1], inquiryRecordFront);
+			System.out.println(file.getName() + "——首页——询问笔录、证人证言、辨认笔录");
+			break;
+		case expertConclusionFront:
+			writeFile(args[1], expertConclusionFront);
+			System.out.println(file.getName() + "——首页——物证、书证、鉴定结论");
+			break;
+		case expertConclusion:
+			writeFile(args[1], expertConclusion);
+			System.out.println(file.getName() + "——物证、书证、鉴定结论");
+			break;
+		case identification:
+			writeFile(args[1], identification);
+			System.out.println(file.getName() + "——身份证明");
+			break;
+		case searchRecord:
+			writeFile(args[1], searchRecord);
+			System.out.println(file.getName() + "——搜查笔录");
+			break;
+		case onTheSpotSVRecord:
+			writeFile(args[1], onTheSpotSVRecord);
+			System.out.println(file.getName() + "——现场勘查笔录、现场勘查（指认）图片");
+			break;
+		case other:
+			writeFile(args[1], other);
+			System.out.println(file.getName() + "——其他");
 			break;
 		default:
 			writeFile(args[1], none);
